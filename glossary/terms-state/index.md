@@ -220,7 +220,7 @@ In case of a Choice Attribute this is analogous to selecting a Value.
 
 *Excluded* means that a considered Value of a Choice Attribute or a referenced Component Configuration Model are not taken into account
 when the Configuration Engine searches for a Solution.
-In case of a Choice Attribute an excluded Value can not become the subject of an [*Implicit Decision*](implicit-decision).
+In case of a Choice Attribute an excluded Value can not become the subject of an [*Implicit Decision*](#implicit-decision).
 
 
 <a name ="configuration-model-satisfaction-state"></a>
