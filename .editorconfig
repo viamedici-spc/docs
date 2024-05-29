@@ -1,0 +1,65 @@
+# stop recursing upwards for other .editorconfig files
+root = true
+
+# Unix-style newlines with a newline ending every file
+[*]
+indent_size = 4
+indent_style = space
+end_of_line = lf
+trim_trailing_whitespace = true
+insert_final_newline = true
+max_line_length = 200
+
+[*.go]
+indent_size = 4
+indent_style = tab
+end_of_line = lf
+trim_trailing_whitespace = true
+insert_final_newline = true
+
+[Makefile]
+indent_size = 4
+indent_style = tab
+end_of_line = lf
+trim_trailing_whitespace = true
+insert_final_newline = true
+
+[*.md]
+indent_size = 2
+indent_style = space
+end_of_line = lf
+trim_trailing_whitespace = true
+insert_final_newline = true
+
+[*.{yaml,yml}]
+indent_size = 2
+indent_style = space
+insert_final_newline = false
+
+
+[*.{ts,tsx,js}]
+indent_size = 2
+indent_style = space
+ij_typescript_imports_wrap = off
+ij_typescript_object_literal_wrap = off
+ij_typescript_spaces_within_brackets = true
+ij_typescript_spaces_within_imports = true
+
+ij_typescript_use_semicolon_after_statement = true
+ij_typescript_force_semicolon_style = true
+ij_typescript_use_double_quotes = false
+ij_typescript_force_quote_style = true
+ij_typescript_keep_line_breaks = true
+ij_typescript_enforce_trailing_comma = keep
+ij_typescript_else_on_new_line = false
+ij_typescript_catch_on_new_line = false
+ij_typescript_spaces_within_interpolation_expressions = false
+# ij_typescript_align_imports = false
+# ij_typescript_align_multiline_ternary_operation = false
+# ij_typescript_align_multiline_parameters_in_calls = false
+# ij_typescript_align_multiline_parameters = false
+# ij_typescript_align_multiline_chained_methods = false
+
+
+[*.{less,html,json,jaml}]
+indent_size = 2

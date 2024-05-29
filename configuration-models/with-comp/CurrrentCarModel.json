@@ -1,0 +1,185 @@
+{
+  "configurationModelSource": {
+    "type": "Package",
+    "configurationModelPackage": {
+      "root": "Car",
+      "configurationModels": [
+        {
+          "configurationModelId": "TechnicalShared",
+          "sharedToConfigurationModels": [],
+          "attributes": {
+            "choiceAttributes": [
+              {
+                "attributeId": "Construction",
+                "lowerBound": 1,
+                "upperBound": 1,
+                "choiceValues": [
+                  {
+                    "choiceValueId": "Car"
+                  },
+                  {
+                    "choiceValueId": "Truck"
+                  }
+                ]
+              },
+              {
+                "attributeId": "Size",
+                "lowerBound": 1,
+                "upperBound": 1,
+                "choiceValues": [
+                  {
+                    "choiceValueId": "16 inch"
+                  },
+                  {
+                    "choiceValueId": "18 inch"
+                  },
+                  {
+                    "choiceValueId": "25 inch"
+                  },
+                  {
+                    "choiceValueId": "28 inch"
+                  }
+                ]
+              }
+            ],
+            "numericAttributes": [],
+            "booleanAttributes": [],
+            "componentAttributes": []
+          },
+          "constraints": [
+            {
+              "constraintId": "SizesForTruck",
+              "textualConstraint": "(Size.\"25 inch\" OR Size.\"28 inch\") <-> Construction.Truck"
+            },
+            {
+              "constraintId": "RimExclusionsForPC",
+              "textualConstraint": "Construction.Car -> !(Size.\"25 inch\" OR Size.\"28 inch\")"
+            }
+          ],
+          "usageRules": {}
+        },
+        {
+          "configurationModelId": "Car",
+          "sharedToConfigurationModels": ["TechnicalShared"],
+          "attributes": {
+            "choiceAttributes": [
+              {
+                "attributeId": "CarSize",
+                "lowerBound": 1,
+                "upperBound": 1,
+                "choiceValues": [
+                  {
+                    "choiceValueId": "Oversize"
+                  },
+                  {
+                    "choiceValueId": "Normal size"
+                  },
+                  {
+                    "choiceValueId": "Minimum size"
+                  }
+                ]
+              }
+            ],
+            "numericAttributes": [
+              {
+                "attributeId": "CO2Emissions",
+                "isDecisionRequired": false,
+                "min": 0,
+                "max": 300,
+                "decimalPlaces": 0
+              }
+            ],
+            "booleanAttributes": [
+              {
+                "attributeId": "Oversize",
+                "isDecisionRequired": true
+              }
+            ],
+            "componentAttributes": [
+              {
+                "attributeId": "Engine",
+                "configurationModelId": "Engine",
+                "inclusion": {
+                  "type": "AlwaysIncluded"
+                }
+              }
+            ]
+          },
+          "constraints": [
+            {
+              "constraintId": "ForOversizeCO2EmissionGreaterThan200",
+              "textualConstraint": "CarSize.Oversize -> CO2Emissions > 200"
+            }
+          ],
+          "usageRules": {}
+        },
+        {
+          "configurationModelId": "Engine",
+          "sharedToConfigurationModels": ["TechnicalShared"],
+          "attributes": {
+            "choiceAttributes": [
+              {
+                "attributeId": "EngineType",
+                "lowerBound": 1,
+                "upperBound": 1,
+                "choiceValues": [
+                  {
+                    "choiceValueId": "Burner"
+                  },
+                  {
+                    "choiceValueId": "Electro"
+                  }
+                ]
+              },
+              {
+                "attributeId": "FuelType",
+                "lowerBound": 1,
+                "upperBound": 1,
+                "choiceValues": [
+                  {
+                    "choiceValueId": "Petrol"
+                  },
+                  {
+                    "choiceValueId": "Diesel"
+                  },
+                  {
+                    "choiceValueId": "Gas"
+                  }
+                ]
+              },
+              {
+                "attributeId": "Power",
+                "lowerBound": 1,
+                "upperBound": 1,
+                "choiceValues": [
+                  {
+                    "choiceValueId": "100 KW"
+                  },
+                  {
+                    "choiceValueId": "200 KW"
+                  }
+                ]
+              }
+            ],
+            "numericAttributes": [],
+            "booleanAttributes": [],
+            "componentAttributes": []
+          },
+          "constraints": [
+            {
+              "constraintId": "TruckNoPetrol",
+              "textualConstraint": "AutomobileType.Truck -> !FuelType.Petrol"
+            },
+            {
+              "constraintId": "ElectroNo100KW",
+              "textualConstraint": "EngineType.Electro -> !Power.\"100 KW\""
+            }
+          ],
+          "usageRules": {}
+        }
+      ]
+    },
+    "attributeRelations": [],
+    "usageRuleParameters": {}
+  }
+}

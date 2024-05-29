@@ -1,0 +1,100 @@
+{
+  "configurationModelPackage": {
+    "root": "SimpleCar",
+    "configurationModels": [
+      {
+        "configurationModelId": "SimpleCar",
+        "sharedToConfigurationModels": [],
+        "attributes": {
+          "choiceAttributes": [
+            {
+              "attributeId": "Construction",
+              "lowerBound": 1,
+              "upperBound": 1,
+              "attributeValues": [
+                {
+                  "attributeValueId": "PC"
+                },
+                {
+                  "attributeValueId": "Truck"
+                }
+              ]
+            },
+            {
+              "attributeId": "EngineType",
+              "lowerBound": 1,
+              "upperBound": 1,
+              "attributeValues": [
+                {
+                  "attributeValueId": "Burner"
+                },
+                {
+                  "attributeValueId": "Electric"
+                }
+              ]
+            },
+            {
+              "attributeId": "ChassisType",
+              "lowerBound": 1,
+              "upperBound": 1,
+              "attributeValues": [
+                {
+                  "attributeValueId": "Comfort"
+                },
+                {
+                  "attributeValueId": "Sport"
+                }
+              ]
+            },
+            {
+              "attributeId": "TransmissionType",
+              "lowerBound": 1,
+              "upperBound": 1,
+              "attributeValues": [
+                {
+                  "attributeValueId": "Manual"
+                },
+                {
+                  "attributeValueId": "Automatic"
+                }
+              ]
+            },
+            {
+              "attributeId": "RimSize",
+              "lowerBound": 1,
+              "upperBound": 1,
+              "attributeValues": [
+                {
+                  "attributeValueId": "16 inch"
+                },
+                {
+                  "attributeValueId": "18 inch"
+                },
+                {
+                  "attributeValueId": "25 inch"
+                },
+                {
+                  "attributeValueId": "28 inch"
+                }
+              ]
+            }
+          ],
+          "numericAttributes": [],
+          "booleanAttributes": [
+            {
+              "attributeId": "Oversize",
+              "isDecisionRequired": true
+            }
+          ],
+          "componentAttributes": []
+        },
+        "constraints": [
+          {
+            "constraintId": "RimExclusionsForPC",
+            "textualConstraint": "Construction.PC -> !(RimSize.\"25 inch\" OR RimSize.\"28 inch\")"
+          }
+        ]
+      }
+    ]
+  }
+}
