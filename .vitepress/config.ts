@@ -10,6 +10,9 @@ export default defineConfig({
   // srcDir: '../',
   srcExclude: ['**/node_modules'],
 
+  base: "",
+  outDir: "dist",
+
   themeConfig: {
     search: {
       provider: 'local'
