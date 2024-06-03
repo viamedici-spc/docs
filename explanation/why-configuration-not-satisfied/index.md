@@ -1,4 +1,4 @@
-## 8.2 Why is the Configuration Model is not satisfied
+## 8.2 Why the Configuration Model is not satisfied
 
 An exemplary starting situation after a configuration, that means after selecting Values for the Configuration Attributes:
 

@@ -82,9 +82,9 @@ export default defineConfig({
       {
         text: '8 Explanations of Configuration States', link: '/explanation/',
         items: [
-          {text: '8.1 Why is an Attribute not satisfied ', link: '/explanation/why-attribute-not-satisfied/'},
-          {text: '8.2 Why is the Configuration Model not satisfied ', link: '/explanation/why-configuration-not-satisfied/'},
-          {text: '8.3 Why is a State not possible', link: '/explanation/why-state-not-possible/'}
+          {text: '8.1 Why an Attribute is not satisfied ', link: '/explanation/why-attribute-not-satisfied/'},
+          {text: '8.2 Why the Configuration Model is not satisfied ', link: '/explanation/why-configuration-not-satisfied/'},
+          {text: '8.3 Why a State is not possible', link: '/explanation/why-state-not-possible/'}
         ]
       },
       {

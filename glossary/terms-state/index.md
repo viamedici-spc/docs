@@ -1,5 +1,5 @@
 <a id ="terms-state"></a>
-## Terms relating to the configuration state
+## Terms relating to the Configuration State
 <a name ="decision"></a>
 ### Decision
 A *Decision* is a decision regarding an [*Attribute Value*](#attribute-value). It concerns the question of whether a Value is included

@@ -10,7 +10,7 @@ configurator applications based on the
 <a href="https://framer.com/projects/Configurator-UIKit--F3Lu1vobs9Y9tMRuLkNt" target="_blank">
 Link to the Configurator UIKit as a Framer Project</a>
 
-## A simple example [*Configurator*](/glossary/terms-infrastructure/#configurator)
+## A simple example Configurator
 <a href="https://adventure-wheels-simple.framer.ai/" target="_blank">Link to the Framer project</a>
 
 To create your own similar project, you can duplicate the simple Configurator example.
@@ -25,4 +25,14 @@ To create your own similar project, you can duplicate the advanced Configurator 
 You can then modify the project to create your own advanced Configurator.
 
 <a href="https://framer.com/projects/new?duplicate=WxHyjXSKCmbWe5cRmWrB" target="_blank">Create a duplicate</a>
+
+
+### configurator-framer
+*configurator-framer* is a component library to build [*Configurators*](/glossary/terms-infrastructure/#configurator)
+with <a href="https://www.framer.com" target="_blank">Framer</a> based on the Viamedici SPC platform.
+
+<a href="https://github.com/viamedici-spc/configurator-framer" target="_blank">Link to the GitHub project</a>
+
+
+
 

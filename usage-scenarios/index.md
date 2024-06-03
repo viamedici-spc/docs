@@ -1,4 +1,4 @@
-# 3 The Use Cases
+# 3 The usage scenarios
 
 In this documentation, the configuration of automobiles serves as an example. A [*Configurator*](/glossary/#configurator)
 for passenger cars (PCs) and one for trucks (LTCs) are required.

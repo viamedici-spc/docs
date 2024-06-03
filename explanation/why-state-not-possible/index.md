@@ -1,4 +1,4 @@
-## 8.3 Why is a State is not possible
+## 8.3 Why a State is not possible
 
 The initial situation after calling up the [*Configurator*](/glossary/#configurator):
 
