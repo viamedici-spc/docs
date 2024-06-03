@@ -77,19 +77,25 @@ export default defineConfig({
         ]
       },
       {
-        text: '8 Explanations of configuration states', link: '/explanation/',
+        text: '8 Explanations of Configuration States', link: '/explanation/',
         items: [
           {text: '8.1 Why is an Attribute not satisfied ', link: '/explanation/why-attribute-not-satisfied/'},
           {text: '8.2 Why is the Configuration Model not satisfied ', link: '/explanation/why-configuration-not-satisfied/'},
-          {text: '8.3 Why is a state is not possible', link: '/explanation/why-state-not-possible/'}
+          {text: '8.3 Why is a State not possible', link: '/explanation/why-state-not-possible/'}
         ]
+      },
+      {
+        text: '9 Integration into an application to obtain a Configurator', link: '/integration/',
+      },
+      {
+        text: '10 No-Code Configurator Apps', link: '/no-code/',
       }
     ],
     socialLinks: [
       {icon: 'github', link: 'https://git.ceventis.de/viamedici/spc/engine/hca-documentation.git'}
     ],
     footer: {
-      copyright: `Copyright © 2023-${new Date().getFullYear()}`
+      copyright: `Copyright © 2024-${new Date().getFullYear()}`
     }
   },
   rewrites: {

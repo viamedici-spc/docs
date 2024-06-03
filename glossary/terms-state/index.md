@@ -294,6 +294,9 @@ The [*Constraint Ids*](#constraint-id) of the causative [*Rules*](#rule).
 
 Specifications of the causative [*Decisions*](#decision).
 
+<a name ="explanation"></a>
+### Explanation
+*Explanation* is often used as a synonym for [*Explanation Response*](#explanation-response).
 
 <a name ="conflict"></a>
 ### Conflict
