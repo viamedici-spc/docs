@@ -10,6 +10,9 @@ export default defineConfig({
   // srcDir: '../',
   srcExclude: ['**/node_modules'],
 
+  base: "/", // vitepress does no to support relative path here https://vitepress.dev/reference/site-config#base
+  outDir: "dist",
+
   themeConfig: {
     search: {
       provider: 'local'
