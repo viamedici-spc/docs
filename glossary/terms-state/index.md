@@ -1,5 +1,10 @@
 <a id ="terms-state"></a>
 ## Terms relating to the Configuration State
+<a name ="configuration-state"></a>
+### Configuration State
+The *Configuration State* is the whole set of [*Explicit Decisions*](#explicit-decision),
+computed [*Impicit Decisions*](#implicit-decision) and computed [*Consequences*](#consequence).
+
 <a name ="decision"></a>
 ### Decision
 A *Decision* is a decision regarding an [*Attribute Value*](#attribute-value). It concerns the question of whether a Value is included
@@ -229,13 +234,6 @@ The *Configuration Model-Satisfaction State* indicates for the whole [*Configura
 required to be made.
 The satisfaction of all  [*Attributes*](#attribute) is necessary in order for the satisfaction of the Configuration Model to be possible.
 But that alone does not necessarily suffice to satisfy the whole Configuration Model.
-
-
-<a name ="configuration-state"></a>
-### Configuration State
-The *Configuration State* is the whole set of [*Explicit Decisions*](#explicit-decision),
-computed [*Impicit Decisions*](#implicit-decision) and computed [*Consequences*](#consequence).
-
 
 <a name ="decision-state"></a>
 ### Decision State

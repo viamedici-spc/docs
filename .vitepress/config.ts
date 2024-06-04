@@ -33,9 +33,9 @@ export default defineConfig({
       {
         text: '2 Glossary', link: '/glossary/',
         items: [
-          {text: '2.1 Terms relating to the configuration infrastructure', link: '/glossary/terms-infrastructure/'},
-          {text: '2.2 Terms relating to the configuration modelling', link: '/glossary/terms-modelling/'},
-          {text: '2.3 Terms relating to the configuration state', link: '/glossary/terms-state/'}
+          {text: '2.1 Terms relating to the Configuration Infrastructure', link: '/glossary/terms-infrastructure/'},
+          {text: '2.2 Terms relating to the Configuration Modelling', link: '/glossary/terms-modelling/'},
+          {text: '2.3 Terms relating to the Configuration State', link: '/glossary/terms-state/'}
         ]
       },
       {

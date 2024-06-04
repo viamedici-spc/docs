@@ -1,5 +1,21 @@
 <a id ="terms-modelling"></a>
-## Terms relating to the configuration modelling
+## Terms relating to the Configuration Modelling
+<a name ="configuration-modelling"></a>
+### Configuration Modelling
+*Configuration Modelling* is the process of developing a [*Configuration Model*](#configuration-model).
+
+The following steps are necessary:
+
+1. Requirement analysis
+2. Analysing the products or systems to be configured
+3. Defining the [*Attributes*](#attribute) with their [*Values*](#value) and relationships.
+4. Creating the [*Configuration Rules*](#configuration-rule)
+
+The Configuration Model Developer (CMD) is available as a comprehensive development environment.
+
+
+
+
 
 <a name ="attribute"></a>
 ### Attribute
@@ -136,8 +152,8 @@ It results from the [*Cardinality*](#cardinality) of an Attribute and/or from
 [*Rules*](#rule) regarding the Attribute respectively the [*Attribute Values*](#attribute-value).
 
 <a name ="rule"></a>
-### Rule
-A *Rule* is a formal representation of a relation between characteristics (Attributes) of real-world products
+### Configuration Rule
+A *Configuration Rule* is a formal representation of a relation between characteristics (Attributes) of real-world products
 respectively their Values. The notation can be done in text ([*Textual Rule*](#textual-rule))
 or in a matrix form ([*Tabular Rule*](#tabular-rule)).
 

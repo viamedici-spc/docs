@@ -1,5 +1,10 @@
 <a id ="terms-infrastructure"></a>
-## Terms relating to the configuration infrastructure
+## Terms relating to the Configuration Infrastructure
+<a name ="infrastructure"></a>
+### Configuration Infrastructure
+The components of the *Configuration Infrastructure* create the prerequisites for configuration to take place.
+
+
 <a name ="configuration-dialogue"></a>
 ### Configuration Dialogue
 A *Configuration Dialogue* is the dialogue between the Headless Configuration API ([*HCA*](/glossary/#hca)) and
