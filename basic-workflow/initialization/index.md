@@ -5,7 +5,7 @@ The initialization steps are shown in Figure 5-2:
 
 ![](ConfigurationInitializationWorkflow.png "The initialization workflow")
 
-Figure 5-2: Sequence of events of the initialization workflow (*the picture needs to be updated*)
+Figure 5-2: Sequence of events of the initialization workflow
 
 The initialization starts with a POST request to create a [*Configuration Session*](/glossary/#session) for the [*Configuration Dialogue*](/glossary/#configuration-dialogue).
 There are two ways to make a [*Configuration Model*](/glossary/#configuration-model), which generally consists of several

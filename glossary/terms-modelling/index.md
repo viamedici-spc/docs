@@ -14,9 +14,6 @@ The following steps are necessary:
 The Configuration Model Developer (CMD) is available as a comprehensive development environment.
 
 
-
-
-
 <a name ="attribute"></a>
 ### Attribute
 An *Attribute* in general is a specific representation of a characteristic of a real-world product.
@@ -111,6 +108,10 @@ A Boolean Attribute is assigned one of two discrete [*Values*](#value).
 The value of a Component Attribute is a reference to a
 [Component Configuration Model](#component-configuration-model).
 
+<a name ="attribute-relations"></a>
+### Attribute Relations
+*Attribute Relations* can be used to specify, which [*Decisions*](/glossary/terms-state/#decision)
+are to be respected for which Attribute.
 
 <a name ="configuration-model"></a>
 ### Configuration Model
