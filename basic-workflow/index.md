@@ -15,14 +15,3 @@ Optionally, [*Usage Rules*](/glossary/terms-modelling/#usage-rule) and
 in the session.
 
 
-
-
-
-
-
-
-
-<a id ="overview"></a>
-## 5.1 Overview
-<a id ="deployment"></a>
-## 5.2 Initialization of the Configuration Dialogue
