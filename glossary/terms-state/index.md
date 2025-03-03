@@ -56,7 +56,7 @@ and has therefore been rejected by the [*Configuration Engine*](#configuration-e
 <a name ="consequence"></a>
 ### Consequence
 A *Consequence* is the result of an evaluation weather of a [*Configuration Model*](#configuration-model)
-or of made [*Decisions*](#decision)] in conjunction with a Configuration Model, especially with the
+or of made [*Decisions*](#decision) in conjunction with a Configuration Model, especially with the
 underlying set of [*Constraints*](#constraint).
 It specifies for a certain [*Attribute*](#attribute) in every case the
 [*Attribute Satisfaction State*](#attribute-satisfaction-state) (true or false).

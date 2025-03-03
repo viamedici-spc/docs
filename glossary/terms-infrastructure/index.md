@@ -19,7 +19,7 @@ The HCA ensures that the [*Configuration State*](/glossary/#configuration-state)
 The *Configuration Engine* is the main configuration component that is implemented as a Micro Service.
 It can be consumed via a REST-API. The Configuration Engine also manages [*Configuration Sessions*](#configuration-session)
 enabling user-friendly [*Configuration Dialogues*](#configuration-dialogue).
-The Configuration Engine is is at the core a [*Constraint*](#constraint) resolver with a very high performance.
+The Configuration Engine is at the core a [*Constraint*](#constraint) resolver with a very high performance.
 
 
 

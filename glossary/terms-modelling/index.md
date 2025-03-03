@@ -192,15 +192,6 @@ is used for the notation. Textual rules are used to express exclusions or
 requirements using complex [*Logical Expressions*](#logical-expression).
 **Example:** IF AutomobileType = “Truck” THEN RimSize >= 20 inch
 
-
-<a name ="usage-rule"></a>
-### Usage Rule
-An *Usage Rule* describes in a HCA-specific notation the use of a [*Configuration Model*](#configuration-model)
-respectively of Configuration Model elements in relation for example to user roles and
-time periods. For example, it can be declared for which user role from which date or up to
-which date the entire Configuration Model or individual model elements ([*Attributes*](#attribute),
-[*Attribute Values*](#attribute-value)) are available.
-
 <a name ="value"></a>
 ### Value
 *Value* is used as a synonym for [*Attribute Value*](#attribute-value).
