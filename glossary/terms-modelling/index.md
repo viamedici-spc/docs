@@ -116,7 +116,7 @@ are to be respected for which Attribute.
 <a name ="configuration-model"></a>
 ### Configuration Model
 A *Configuration Model* consists of [*Attributes*](#attribute), [*Attribute Values*](#attribute-value),
-[*Constraints*](#constraint) and optional associated [*Usage Rules*](#usage-rule).
+[*Constraints*](#constraint).
 It is the basis for solving a configuration task.
 A Configuration Model can inherit model elements from other Configuration Models.
 
@@ -148,9 +148,10 @@ then this model is a Component Configuration Model or serves as such one.
 
 <a name ="constraint"></a>
 ### Constraint
-A *Constraint* is generally a restriction regarding the Values of an [*Attribute*](#attribute).
-It results from the [*Cardinality*](#cardinality) of an Attribute and/or from
-[*Rules*](#rule) regarding the Attribute respectively the [*Attribute Values*](#attribute-value).
+A *Constraint* is generally a restriction regarding the Values of an [*Attribute*](#attribute). It is an expression
+without the operators -> or <->, which must be true (equivalent to ‘false (prohibited)’) and whose purpose
+is to exclude invalid combinations, check limits and maintain consistency.
+
 
 <a name ="rule"></a>
 ### Configuration Rule
@@ -158,10 +159,11 @@ A *Configuration Rule* is a formal representation of a relation between characte
 respectively their Values. The notation can be done in text ([*Textual Rule*](#textual-rule))
 or in a matrix form ([*Tabular Rule*](#tabular-rule)).
 
+
 <a name ="logical-expression"></a>
 ### Logical Expression
-A *Logical Expression* is formed by combining logical operands with logical operators
-(comparisons, negation, conjunction, disjunction) and brackets.
+A *Logical Expression* is formed by combining logical operands with logical (negation, conjunction, disjunction) and
+comparision operators and brackets.
 A Logical Expression evaluates to either “true” or “false".
 
 
