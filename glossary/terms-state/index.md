@@ -38,6 +38,11 @@ It results from the currently made [*Explicit Decisions*](#explicit-decision), [
 For example: If a mandatory Attribute has only one remaining possible Value then this value is implicitly
 included in the [*Solution*](#solution).
 
+<a name ="single-decision"></a>
+### Single Decision
+A *Single Decision* affects exactly one [*Attribute*](#attribute). This means that one [*Explicit Decision*](#explicit-decision) is transferred
+with a PUT request.
+
 <a name ="multiple-decision"></a>
 ### Multiple Decision
 A *Multiple Decision* affects more than one [*Attribute*](#attribute). This means that several [*Explicit Decisions*](#explicit-decision) are transferred
