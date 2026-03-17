@@ -63,10 +63,14 @@ and has therefore been rejected by the [*Configuration Engine*](#configuration-e
 A *Consequence* is the result of an evaluation weather of a [*Configuration Model*](#configuration-model)
 or of made [*Decisions*](#decision) in conjunction with a Configuration Model, especially with the
 underlying set of [*Constraints*](#constraint).
-It specifies for a certain [*Attribute*](#attribute) in every case the
+First, a boolean value is used to indicate whether the Configuration Model as a whole is satisfied or not.
+In addition, for each [*Attribute*](#attribute) is specified in every case the
 [*Attribute Satisfaction State*](#attribute-satisfaction-state) (true or false).
 In the case of "false", at least one Decision must still be made regarding an [*Attribute Value*](#attribute-value).
-For a [*Choice Attribute*](#choice-attribute) several Decisions may be still necessary. In addition to the Attribute Satisfaction State,
+For a [*Choice Attribute*](#choice-attribute) several Decisions may be still necessary.
+It also provides information on whether the Attribute under consideration can contribute to the
+satisfaction of the entire Configuration Model.
+In addition,
 further information is provided depending on the type of Attribute. Therefore, 4 types of Consequences are distinguished:
 [*Choice Consequences*](#choice-consequence), [*Numeric Consequences*](#numeric-consequence),
 [*Boolean Consequences*](#boolean-consequence) and [*Component Consequences*](#component-consequence).
