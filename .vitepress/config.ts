@@ -33,6 +33,9 @@ export default withMermaid(
           text: '1 Introduction', link: '/introduction/',
         },
         {
+          text: 'A Whitepaper', link: '/whitepaper/',
+        },
+        {
           text: '2 Glossary', link: '/glossary/',
           items: [
             {text: '2.1 Terms relating to the Configuration Infrastructure', link: '/glossary/terms-infrastructure/'},
