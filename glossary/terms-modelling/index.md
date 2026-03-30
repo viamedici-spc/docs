@@ -1,8 +1,8 @@
-<a id ="terms-modelling"></a>
-## Terms relating to the Configuration Modelling
-<a name ="configuration-modelling"></a>
-### Configuration Modelling
-*Configuration Modelling* is the process of developing a [*Configuration Model*](#configuration-model).
+<a id ="terms-modeling"></a>
+## Terms relating to the Configuration Modeling
+<a name ="configuration-modeling"></a>
+### Configuration Modeling
+*Configuration Modeling* is the process of developing a [*Configuration Model*](#configuration-model).
 
 The following steps are necessary:
 

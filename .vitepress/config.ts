@@ -5,8 +5,8 @@ export default withMermaid(
   defineConfig({
     lang: 'en-GB',
 
-    title: 'Product documentation HCA 2.0',
-    description: 'Documentation for Headless Configuration API 2.0',
+    title: 'SPC Documentation',
+    description: 'Documentation for the SPC Configuration Platform',
     lastUpdated: true,
     cleanUrls: true,
     // srcDir: '../',
@@ -27,76 +27,141 @@ export default withMermaid(
 
       sidebar: [
         {
-          text: 'CONTENT', link: '/components/',
-        },
-        {
-          text: '1 Introduction', link: '/introduction/',
-        },
-        {
-          text: 'A Whitepaper', link: '/whitepaper/',
-        },
-        {
-          text: '2 Glossary', link: '/glossary/',
+          text: 'CONTENT', link: '/documentations/',
           items: [
-            {text: '2.1 Terms relating to the Configuration Infrastructure', link: '/glossary/terms-infrastructure/'},
-            {text: '2.2 Terms relating to the Configuration Modelling', link: '/glossary/terms-modelling/'},
-            {text: '2.3 Terms relating to the Configuration State', link: '/glossary/terms-state/'}
+            {text: 'Documentation HCA 2.0', link: '/documentations/docu-hca/',
+              collapsed: true,
+              items: [
+                {text: '1 Introduction', link: '/introduction/'},
+                {
+                  text: '2 Glossary', link: '/glossary/',collapsed: true,
+                  items: [
+                    {text: '2.1 Terms relating to the Configuration Infrastructure', link: '/glossary/terms-infrastructure/'},
+                    {text: '2.2 Terms relating to the Configuration Modeling', link: '/glossary/terms-modelling/'},
+                    {text: '2.3 Terms relating to the Configuration State', link: '/glossary/terms-state/'}
+                  ]
+                },
+                {
+                  text: '3 The Usage Scenarios', link: '/usage-scenarios/', collapsed: true,
+                  items: [
+                    {text: '3.1 Without Components', link: '/usage-scenarios/without-comp/'},
+                    {text: '3.2 With Components', link: '/usage-scenarios/with-comp/'}
+                  ]
+                },
+                {
+                  text: '4 The Configuration Models', link: '/configuration-models/', collapsed: true,
+                  items: [
+                    {text: '4.1 Without Components', link: '/configuration-models/without-comp/'},
+                    {text: '4.2 With Components', link: '/configuration-models/with-comp/'}
+                  ]
+                },
+                {
+                  text: '5 The basic configuration workflow', link: '/basic-workflow/', collapsed: true,
+                  items: [
+                    {text: '5.1 Overview', link: '/basic-workflow/overview/'},
+                    {text: '5.2 Initialization of the Configuration Dialogue', link: '/basic-workflow/initialization/'}
+                  ]
+                },
+                {
+                  text: '6 Exemplary Configuration Dialogues', link: '/exemplary-configuration-dialogues/', collapsed: true,
+                  items: [
+                    {text: '6.1 Without Components', link: '/exemplary-configuration-dialogues/without-comp/'},
+                    {text: '6.2 With Components', link: '/exemplary-configuration-dialogues/with-comp/'},
+                    {text: '6.2.1 The Configuration Dialogue', link: '/exemplary-configuration-dialogues/with-comp/dialogue/'},
+                    {text: '6.2.2 The Rules of the Configuration Model', link: '/exemplary-configuration-dialogues/with-comp/rules/'},
+                    {text: '6.2.3 Consequences', link: '/exemplary-configuration-dialogues/with-comp/consequences/'}
+                  ]
+                },
+                {
+                  text: '7 Restore a Configuration State', link: '/restore/', collapsed: true,
+                  items: [
+                    {text: '7.1 Without changes in the Configuration Model ', link: '/restore/without-changes/'},
+                    {text: '7.2 With changes in the Configuration Model', link: '/restore/with-changes/'},
+                    {text: '7.2.1 One Attribute Value has been removed or renamed', link: '/restore/with-changes/value-removed/'},
+                    {text: '7.2.2 One Attribute has been removed or renamed', link: '/restore/with-changes/attribute-removed/'},
+                    {text: '7.2.3 One Rule has been added', link: '/restore/with-changes/rule-added/'}
+                  ]
+                },
+                {
+                  text: '8 Explanations of Configuration States', link: '/explanation/', collapsed: true,
+                  items: [
+                    {text: '8.1 Why an Attribute is not satisfied ', link: '/explanation/why-attribute-not-satisfied/'},
+                    {text: '8.2 Why the Configuration Model is not satisfied ', link: '/explanation/why-configuration-not-satisfied/'},
+                    {text: '8.3 Why a State is not possible', link: '/explanation/why-state-not-possible/'}
+                  ]
+                },
+                {
+                  text: '9 Integration into an application to obtain a Configurator', link: '/integration/',
+                },
+                {
+                  text: '10 No-Code Configurator Apps', link: '/no-code/',
+                }
+              ]
+            },
+            {text: 'White Paper SPC platform', link: '/documentations/whitepaper-spc/',
+              collapsed: true,
+              items: [
+                {text: '1 Introduction', link: '/documentations/whitepaper-spc/wp-introduction'},
+                {text: '2 Challenges of traditional systems', link: '/documentations/whitepaper-spc/wp-challenges/'},
+                {
+                  text: '3 The Usage Scenarios', link: '/usage-scenarios/', collapsed: true,
+                  items: [
+                    {text: '3.1 Without Components', link: '/usage-scenarios/without-comp/'},
+                    {text: '3.2 With Components', link: '/usage-scenarios/with-comp/'}
+                  ]
+                },
+                {
+                  text: '4 The Configuration Models', link: '/configuration-models/', collapsed: true,
+                  items: [
+                    {text: '4.1 Without Components', link: '/configuration-models/without-comp/'},
+                    {text: '4.2 With Components', link: '/configuration-models/with-comp/'}
+                  ]
+                },
+                {
+                  text: '5 The basic configuration workflow', link: '/basic-workflow/', collapsed: true,
+                  items: [
+                    {text: '5.1 Overview', link: '/basic-workflow/overview/'},
+                    {text: '5.2 Initialization of the Configuration Dialogue', link: '/basic-workflow/initialization/'}
+                  ]
+                },
+                {
+                  text: '6 Exemplary Configuration Dialogues', link: '/exemplary-configuration-dialogues/', collapsed: true,
+                  items: [
+                    {text: '6.1 Without Components', link: '/exemplary-configuration-dialogues/without-comp/'},
+                    {text: '6.2 With Components', link: '/exemplary-configuration-dialogues/with-comp/'},
+                    {text: '6.2.1 The Configuration Dialogue', link: '/exemplary-configuration-dialogues/with-comp/dialogue/'},
+                    {text: '6.2.2 The Rules of the Configuration Model', link: '/exemplary-configuration-dialogues/with-comp/rules/'},
+                    {text: '6.2.3 Consequences', link: '/exemplary-configuration-dialogues/with-comp/consequences/'}
+                  ]
+                },
+                {
+                  text: '7 Restore a Configuration State', link: '/restore/', collapsed: true,
+                  items: [
+                    {text: '7.1 Without changes in the Configuration Model ', link: '/restore/without-changes/'},
+                    {text: '7.2 With changes in the Configuration Model', link: '/restore/with-changes/'},
+                    {text: '7.2.1 One Attribute Value has been removed or renamed', link: '/restore/with-changes/value-removed/'},
+                    {text: '7.2.2 One Attribute has been removed or renamed', link: '/restore/with-changes/attribute-removed/'},
+                    {text: '7.2.3 One Rule has been added', link: '/restore/with-changes/rule-added/'}
+                  ]
+                },
+                {
+                  text: '8 Explanations of Configuration States', link: '/explanation/', collapsed: true,
+                  items: [
+                    {text: '8.1 Why an Attribute is not satisfied ', link: '/explanation/why-attribute-not-satisfied/'},
+                    {text: '8.2 Why the Configuration Model is not satisfied ', link: '/explanation/why-configuration-not-satisfied/'},
+                    {text: '8.3 Why a State is not possible', link: '/explanation/why-state-not-possible/'}
+                  ]
+                },
+                {
+                  text: '9 Integration into an application to obtain a Configurator', link: '/integration/',
+                },
+                {
+                  text: '10 No-Code Configurator Apps', link: '/no-code/',
+                }
+              ]
+            },
+            {text: 'Configuration Modeling Guide', link: '/documentations/modeling-guide/'}
           ]
-        },
-        {
-          text: '3 The Usage Scenarios', link: '/usage-scenarios/',
-          items: [
-            {text: '3.1 Without Components', link: '/usage-scenarios/without-comp/'},
-            {text: '3.2 With Components', link: '/usage-scenarios/with-comp/'}
-          ]
-        },
-        {
-          text: '4 The Configuration Models', link: '/configuration-models/',
-          items: [
-            {text: '4.1 Without Components', link: '/configuration-models/without-comp/'},
-            {text: '4.2 With Components', link: '/configuration-models/with-comp/'}
-          ]
-        },
-        {
-          text: '5 The basic configuration workflow', link: '/basic-workflow/',
-          items: [
-            {text: '5.1 Overview', link: '/basic-workflow/overview/'},
-            {text: '5.2 Initialization of the Configuration Dialogue', link: '/basic-workflow/initialization/'}
-          ]
-        },
-        {
-          text: '6 Exemplary Configuration Dialogues', link: '/exemplary-configuration-dialogues/',
-          items: [
-            {text: '6.1 Without Components', link: '/exemplary-configuration-dialogues/without-comp/'},
-            {text: '6.2 With Components', link: '/exemplary-configuration-dialogues/with-comp/'},
-            {text: '6.2.1 The Configuration Dialogue', link: '/exemplary-configuration-dialogues/with-comp/dialogue/'},
-            {text: '6.2.2 The Rules of the Configuration Model', link: '/exemplary-configuration-dialogues/with-comp/rules/'},
-            {text: '6.2.3 Consequences', link: '/exemplary-configuration-dialogues/with-comp/consequences/'}
-          ]
-        },
-        {
-          text: '7 Restore a Configuration State', link: '/restore/',
-          items: [
-            {text: '7.1 Without changes in the Configuration Model ', link: '/restore/without-changes/'},
-            {text: '7.2 With changes in the Configuration Model', link: '/restore/with-changes/'},
-            {text: '7.2.1 One Attribute Value has been removed or renamed', link: '/restore/with-changes/value-removed/'},
-            {text: '7.2.2 One Attribute has been removed or renamed', link: '/restore/with-changes/attribute-removed/'},
-            {text: '7.2.3 One Rule has been added', link: '/restore/with-changes/rule-added/'}
-          ]
-        },
-        {
-          text: '8 Explanations of Configuration States', link: '/explanation/',
-          items: [
-            {text: '8.1 Why an Attribute is not satisfied ', link: '/explanation/why-attribute-not-satisfied/'},
-            {text: '8.2 Why the Configuration Model is not satisfied ', link: '/explanation/why-configuration-not-satisfied/'},
-            {text: '8.3 Why a State is not possible', link: '/explanation/why-state-not-possible/'}
-          ]
-        },
-        {
-          text: '9 Integration into an application to obtain a Configurator', link: '/integration/',
-        },
-        {
-          text: '10 No-Code Configurator Apps', link: '/no-code/',
         }
       ],
       socialLinks: [

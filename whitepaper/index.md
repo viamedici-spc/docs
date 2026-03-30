@@ -1,4 +1,4 @@
-# Introduction – The Need for a New Approach
+# 1 Introduction – The Need for a New Approach
 
 For decades, product configuration systems have been a critical enabler
 of complex product offerings — yet many of them remain trapped in legacy
@@ -26,7 +26,10 @@ and cost and benefit aspects are made transparent.
 The white paper can be read with benefit by both technicians and
 managers.
 
-# Challenges of Traditional Systems
+# 2 Challenges of Traditional Systems
+
+## The Limitations of Legacy Configurators
+### The Limitations of Legacy Configurators
 
 **The Limitations of Legacy Configurators**
 
@@ -190,10 +193,7 @@ Main components of the SPC Platform
 The following figure shows a greatly simplified diagram of the SPC
 Platform:
 
-<img src="media/media/image1.png"
-style="width:5.78022in;height:2.03697in"
-alt="Ein Bild, das Text, Screenshot, Schrift, Reihe enthält. Automatisch generierte Beschreibung" />
-
+![](media/MainComponentsSimplified.png "Main Components Simplified")
 Figure 4.1: Highly simplified diagram of the main components of the SPC
 Platform
 
@@ -250,12 +250,12 @@ assets can be integrated through appropriate interfaces.
 
 ### Creation and Maintenance Components
 
-### The central creation and maintenance component is the Configuration Model Developer by Viamedici, which is used primarily to define and maintain configuration rules.\
+The central creation and maintenance component is the Configuration Model Developer by Viamedici, which is used primarily to define and maintain configuration rules.\
 Additional components in this area include specialized frontend libraries and a UI Kit for the web design tool „Framer“. Both simplify the development of product configuration frontends and support the creation of so-called no-code frontends.
 
-### Configuration Engine
+#### Configuration Engine
 
-### The Configuration Engine is the core of every Viamedici configuration solution. The result of years of development and optimization, it processes Configuration Models at exceptional speed while maintaining a non-blocking operational state at all times.
+The Configuration Engine is the core of every Viamedici configuration solution. The result of years of development and optimization, it processes Configuration Models at exceptional speed while maintaining a non-blocking operational state at all times.
 
 ### Communication via REST Interfaces
 
@@ -269,9 +269,7 @@ Additional components in this area include specialized frontend libraries and 
 
 The Two Key Aspects of a Product Configuration System
 
-<img src="media/media/image2.png"
-style="width:5.78261in;height:1.83766in"
-alt="Ein Bild, das Text, Screenshot, Rechteck, Schrift enthält. Automatisch generierte Beschreibung" />
+![](media/RuntimeAndMaintenanceSystems1.png "Overview Runtime and Maintenance Systems")
 
 Figure 4.2: Processing and Maintenance of a Configuration Model
 
@@ -367,11 +365,9 @@ no-code frontend possible. Specifically for this purpose — the creation
 of configurator no-code frontends — the “Configurator UIKit” was
 developed for the “Framer” web design tool.
 
-<img src="media/media/image3.png"
-style="width:6.00163in;height:2.62637in"
-alt="Ein Bild, das Text, Screenshot, Diagramm, Schrift enthält. Automatisch generierte Beschreibung" />
+![](media/MainComponetsRunTimeSystem.png "Main Components Runtime System")
 
-Abbildung 4.3: Main components of a runtime system for product
+Figure 4.3: Main components of a runtime system for product
 configuration based on\
 SPC platform
 
@@ -433,13 +429,10 @@ efficient work. Modified or new rules are validated at runtime in the
 context of the complete rule set and can then be made available for
 release immediately.
 
-<img src="media/media/image4.png"
-style="width:5.81173in;height:3.79121in"
-alt="Ein Bild, das Text, Screenshot, Diagramm, Schrift enthält. Automatisch generierte Beschreibung" />
+![](media/MainComponetsMaintenanceSystem.png "Main Components Maintenance System")
 
 Figure 4.4: Main components of a care and maintenance system for
-productconfiguration\
-based on SPC platform
+product configuration based on SPC platform
 
 # Technical Architectures
 
@@ -452,9 +445,7 @@ platform.
 The basic technical architecture of the configuration platform is shown
 in the following figure.
 
-<img src="media/media/image5.png"
-style="width:5.55677in;height:5.37363in"
-alt="Ein Bild, das Text, Screenshot, Schrift, parallel enthält. Automatisch generierte Beschreibung" />
+![](media/echnicalArchitectureSPCPlatform.png "Technical Architecture SPC Platform")
 
 Figure 5.1: Technical architecture of the SPC platform
 
@@ -533,8 +524,7 @@ configuration attributes are usually maintained in a third-party system
 CMD is a high-performance single-page application that works together
 with all service and infrastructure components (see Figure 5.1).
 
-<img src="media/media/image6.png"
-style="width:6.3in;height:3.87917in" />
+![](media/CMDRuleEditor.png "CMD Rule Editor")
 
 Figure 5.2: Rule editor of the Configuration Model Developer
 
@@ -635,9 +625,7 @@ to the Configuration Engine is handled via access tokens.
 The following figure shows the technical architecture of a solution
 based on the SPC configuration platform.
 
-<img src="media/media/image7.png"
-style="width:5.87309in;height:7.0099in"
-alt="Ein Bild, das Text, Screenshot, Diagramm, Schrift enthält. Automatisch generierte Beschreibung" />
+![](media/SimplifiedArchitectureOfConfigurationSolution.png "Simplified Architecture Of Configuration Solution")
 
 Figure 5.3: Simplified architecture of a configuration solution based on
 SPC
@@ -647,9 +635,7 @@ examples: Configurator App1 and Configurator App2. Two UI excerpts are
 intended to illustrate these apps and, at the same time, demonstrate
 that there are no limits to interface design.
 
-<img src="media/media/image8.png"
-style="width:4.09251in;height:4.59282in"
-alt="Ein Bild, das Text, Screenshot, Design enthält. Automatisch generierte Beschreibung" />
+![](media/SimpleConfiguratorUI.png "Simple Configurator UI")
 
 Figure 5.4: UI excerpt of a visually simple configurator
 
@@ -657,13 +643,9 @@ This sample application can be accessed at:
 
 <https://adventure-wheels-simple.framer.ai>.
 
-<img src="media/media/image9.png"
-style="width:4.06278in;height:2.83481in"
-alt="Ein Bild, das Screenshot, Kreis enthält. Automatisch generierte Beschreibung" />
+![](media/MoreSophisticatedConfiguratorUI-1.png "More Sophisticate Configurator UI 1")
 
-<img src="media/media/image10.png"
-style="width:4.33663in;height:2.47425in"
-alt="Ein Bild, das Text, Screenshot, Design enthält. Automatisch generierte Beschreibung" />
+![](media/MoreSophisticatedConfiguratorUI-2.png "More Sophisticate Configurator UI 2")
 
 Figure 5.5: UI excerpt of a configurator with a more sophisticated
 interface design
@@ -683,9 +665,7 @@ evaluated using an instance of the Configuration Engine.
 The configuration attributes are maintained in EPIM (see the right side
 of Figure 5.6 below).
 
-<img src="media/media/image11.png"
-style="width:6.13861in;height:2.86631in"
-alt="Ein Bild, das Text, Screenshot, Schrift, Zahl enthält. Automatisch generierte Beschreibung" />
+![](media/AttributeMaintenanceViewEPIM.png "Attribute Maintenance View EPIM")
 
 Figure 5.6: Attribute-Maintenance-View in EPIM
 
@@ -714,11 +694,9 @@ Integration with third-party systems — regardless of type — is carried
 out exclusively via standard interfaces, as shown in the following
 figure.
 
-<img src="media/media/image12.png"
-style="width:5.58242in;height:3.25333in"
-alt="Ein Bild, das Text, Screenshot, Schrift, Zahl enthält. Automatisch generierte Beschreibung" />
+![](media/SPC-ThirdParty.png "Connecting to Third Party Systems")
 
-Figure 5.4: Connecting a Viamedici configuration solution to third-party
+Figure 5.7: Connecting a Viamedici configuration solution to third-party
 systems
 
 # Functionalities and Features
@@ -828,10 +806,9 @@ are collapsed by default and slide out when clicked. When using larger
 screens, multiple panels can be shown at the same time and can also be
 pinned (see Figure 5.5).
 
-<img src="media/media/image13.png" style="width:6.3in;height:2.46528in"
-alt="Ein Bild, das Screenshot, Text enthält. Automatisch generierte Beschreibung" />
+![](media/CMD-FunctionPanels.png "CMD Function Panels")
 
-Figure 5.5: The CMD with three expanded function panels
+Figure 6.1: The CMD with three expanded function panels
 
 The most innovative function panel is the Evaluator. Using an
 automatically generated configuration user interface, modified or new
