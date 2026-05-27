@@ -87,12 +87,12 @@ end-to-end process continuity and data consistency.
 #### 5. Empowered Product Teams
 
 No-code tools put control back into the hands of product managers and
-business experts. Configuration Models and UIs can be created and
+business experts. [*Configuration Models*](../../docu-hca/glossary/terms-modeling/#configuration-model) and UIs can be created and
 adjusted without IT intervention – fostering agility and innovation.
 
 #### 6. Intelligence Everywhere
 
-AI assistance helps modelers detect inconsistencies, automate rule
+AI assistance helps modelers detect inconsistencies, automate [*Rule*](../../docu-hca/glossary/terms-modeling/#configuration-rule)
 creation, and optimize configurations. End-users benefit from guided
 selling and predictive recommendations — making configuration faster and
 smarter.

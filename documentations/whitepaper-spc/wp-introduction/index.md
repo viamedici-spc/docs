@@ -23,5 +23,5 @@ configuration solution are presented in detail.
 Various use cases are described, the software functions are explained,
 and cost and benefit aspects are made transparent.
 
-The white paper can be read with benefit by both technicians and
+The White Paper can be read with benefit by both technicians and
 managers.

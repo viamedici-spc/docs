@@ -4,6 +4,9 @@
 ### Configuration Infrastructure
 The components of the **Configuration Infrastructure** create the prerequisites for configuration to take place.
 
+<a name ="cmd"></a>
+### Configuration Model Developer (CMD)
+The *Configuration Model Developer* is the integrated development environment for developing and maintaining Configuration Models.
 
 <a name ="configuration-dialogue"></a>
 ### Configuration Dialogue
@@ -98,3 +101,6 @@ that among others contains the components: [*Configuration Engine*](#configurati
 A *Snapshot* is an internal, immutable representation of a certain version of a [*Configuration Model*](../terms-modeling/#configuration-model).
 It is used within a [*Configuration Session*](#configuration-session). A Snapshot is created from a Configuration Model and it’s
 a flat (fully inherited) representation of it.
+
+
+

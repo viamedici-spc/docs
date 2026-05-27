@@ -39,7 +39,7 @@ and missed opportunities in digital sales and customer service.
 |---------------|-------------------------------|-----------------------------|
 | Architecture  | Monolithic, static            | Modular Microservices       |
 | Frontend      | Developer-dependent           | No-code, customizable       |
-| Integration   | Proprietary connektors        | REST / API-first            |
+| Integration   | Proprietary connectors        | REST / API-first            |
 | Performance   | Slow response, scaling limits | High-speed, elastic scaling |
-| AI Assistence | None                          | Embedded in modeling & UX   |
+| AI Assistance | None                          | Embedded in modeling & UX   |
 | Deployment    | On-premise, manual            | Cloud-native, automated     |
