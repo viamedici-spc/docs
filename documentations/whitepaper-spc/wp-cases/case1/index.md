@@ -1,26 +1,26 @@
 ## 8.1 Business Case 1: Gold Mining
-###Goal
+### Goal
 
 Product variants should be determined via guided selling.
 
-##Situation
+### Situation
 
-The product data, including configuration attributes, is available in a
+The product data, including [*Configuration Attributes*](../../../docu-hca/glossary/terms-modeling/#attribute), is available in a
 PIM system. There is no configurator tool yet, or an existing one no
 longer meets current requirements.
 
-##Actions
+### Actions
 
-- Design and implement a one-time PIM data transformation
+- Design and implement a one-time PIM data transformation,
 
-- Training on creating and maintaining configuration rules
+- Training on creating and maintaining [*Configuration Rules*](../../../docu-hca/glossary/terms-modeling/#configuration-rule),
 
-- Build a no-code configurator as a proof of concept
+- Build a **No-Code Configurator** as a proof of concept,
 
-- Define the workflow
+- Define the workflow,
 
-- Implement and launch the production configurator application(s)
+- Implement and launch the production configurator application(s).
 
-##Result
+### Result
 
 Additional revenue is generated from the PIM data.

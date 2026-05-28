@@ -147,10 +147,16 @@ export default withMermaid(
                   ]
                 },
                 {
-                  text: '9 Implementation Strategy', link: '/documentations/whitepaper-spc/wp-implementation/',
+                  text: '9 Implementation', link: '/documentations/whitepaper-spc/wp-implementation/', collapsed: true,
+                  items: [
+                    {text: '9.1 Implementation steps', link: '/documentations/whitepaper-spc/wp-implementation/steps/'},
+                    {text: '9.2 Resources', link: '/documentations/whitepaper-spc/wp-implementation/resources/'},
+                    {text: '9.3 Training', link: '/documentations/whitepaper-spc/wp-implementation/training/'},
+                    {text: '9.4 Change management', link: '/documentations/whitepaper-spc/wp-implementation/measures/'}
+                  ]
                 },
                 {
-                  text: '10 Security Considerations', link: '/documentations/whitepaper-spc/wp-security/',
+                  text: '10 Security / Data Privacy', link: '/documentations/whitepaper-spc/wp-security/',
                 },
                 {
                   text: '11 Summary', link: '/documentations/whitepaper-spc/wp-summary/',

@@ -1390,38 +1390,22 @@ Total duration: **approx. 10-11 months.**
 
 **Staffing / Human Resources**
 
-**Interne Ressourcen**
-
-Projektleiter
-
-Fachkräfte aus Vertrieb, Produktion und Produktentwicklung
-
-IT-Experten für Systemintegration
-
-Key User aus relevanten Abteilungen (Vertrieb, Produktion, Logistik)
-
-**Externe Ressourcen**
-
-Technischer Support durch Viamedici;
-
-Viamedici-Berater für Change Management und Implementierung.
-
-**Technische Ressourcen:**
-
-Server oder Cloud-Infrastruktur für das System;
-
-Schnittstellen zu bestehenden Systemen (ERP, CRM);
-
-Testumgebung für sichere Systemprüfungen.
-
-**Finanzielle Ressourcen:**
-
-Lizenzkosten für das Konfigurations-Backend;
-
-Kosten für Beratung und Schulungen durch Viamedici oder einen
-Viamedici-Partner;
-
-Budget für Change-Management-Maßnahmen.
+Internal Resources
+Project manager
+Subject matter experts from sales, production, and product development
+IT experts for system integration
+Key users from relevant departments, such as sales, production, and logistics
+External Resources
+Technical support from Viamedici
+Viamedici consultants for change management and implementation
+Technical Resources
+Server or cloud infrastructure for the system
+Interfaces to existing systems, such as ERP and CRM
+Test environment for safe system testing
+Financial Resources
+License costs for the configuration backend
+Costs for consulting and training by Viamedici or a Viamedici partner
+Budget for change management activities
 
 **Training**
 
