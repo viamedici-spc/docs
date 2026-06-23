@@ -166,7 +166,41 @@ export default withMermaid(
                 }
               ]
             },
-            {text: 'Configuration Modeling Guide', link: '/documentations/modeling-guide/'}
+            {text: 'Configuration Modeling', link: '/documentations/modeling-guide/', collapsed: true,
+              items: [
+                {text: '1 Introduction', link: '/documentations/modeling-guide/mg-introduction', collapsed: true},
+                {text: '2 Basic Concepts', link: '/documentations/modeling-guide/mg-concepts/', collapsed: true,
+                  items: [
+                    {text: '2.1 What is product configuration?', link: '/documentations/modeling-guide/mg-concepts/whats-pc/'},
+                    {text: '2.2 What is a configurator?', link: '/documentations/modeling-guide/mg-concepts/whats-con/'},
+                    {text: '2.3 What is a configuration model?', link: '/documentations/modeling-guide/mg-concepts/whats-mod/'},
+                    {text: '2.4 Why isn\'t a simple list of options enough?', link: '/documentations/modeling-guide/mg-concepts/why-not-enough/'},
+                    {text: '2.5 What is a configuration rule?', link: '/documentations/modeling-guide/mg-concepts/whats-rule/'},
+                    {text: '2.6 What is a valid configuration?', link: '/documentations/modeling-guide/mg-concepts/whats-valid-conf/'},
+                    {text: '2.7 What should a configuration model accomplish?', link: '/documentations/modeling-guide/mg-concepts/what-accomplish/'}
+                  ]
+                },
+                {text: '3 Basics of the CSP', link: '/documentations/modeling-guide/mg-csp/', collapsed: true,
+                  items: [
+                    {text: '3.1 Product Configuration as a Constraint Satisfaction Problem', link: '/documentations/modeling-guide/mg-csp/pc-as-csp/'},
+                    {text: '3.2 The elements of a CSP', link: '/documentations/modeling-guide/mg-csp/csp-elements/'},
+                    {text: '3.3 Solving a CSP', link: '/documentations/modeling-guide/mg-csp/csp-solving/'},
+                    {text: '3.4 What does a CSP Solver do?', link: '/documentations/modeling-guide/mg-csp/csp-solver/'},
+                    {text: '3.5 Direct and Indirect Effects', link: '/documentations/modeling-guide/mg-csp/effects/'},
+                    {text: '3.6 Why are Constraints better than manual verification?', link: '/documentations/modeling-guide/mg-csp/why-constraints-better/'},
+                    {text: '3.7 What does “satisfy all rules simultaneously” mean?', link: '/documentations/modeling-guide/mg-csp/satisfy-all-rules/'},
+                    {text: '3.8 CSP from two perspectives', link: '/documentations/modeling-guide/mg-csp/perspectives/'},
+                    {text: '3.9 Summary', link: '/documentations/modeling-guide/mg-csp/summary/'}
+                  ]
+                },
+                {text: '4 Model Structure of the Automotive Example', link: '/documentations/modeling-guide/mg-example-structure/', collapsed: true,
+                  items: [
+                    {text: '4.1 Main components', link: '/documentations/modeling-guide/wp-platform-details/main-comp/'},
+                    {text: '4.2 Two Key Aspects', link: '/documentations/modeling-guide/wp-platform-details/key-aspects/'}
+                  ]
+                }
+              ]
+            }
           ]
         }
       ],
