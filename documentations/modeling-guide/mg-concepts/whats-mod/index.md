@@ -26,7 +26,7 @@ The information ```Usage."Off road"``` can affect several components:<br>
 • the transmission,<br>
 • the wheels,<br>
 • the spare wheels.<br>
-For this reason, this attribute is located in a shared model.
+For this reason, this Attribute is located in a [*Shared Model*](../../../docu-hca/glossary/terms-modeling/#shared-configuration-model).
 The model structure of the teaching example can be represented in simplified form as follows:<br>
 ```
 Car
