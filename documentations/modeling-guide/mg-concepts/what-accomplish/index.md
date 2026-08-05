@@ -15,7 +15,8 @@ In the automotive example, the model should ensure, for instance, that:<br>
 • An off-road vehicle requires at least one spare wheel.<br>
 • Only an off-road vehicle can be equipped with a bull bar.<br>
 • Certain engine and transmission combinations are enforced automatically.<br><br>
-The Configuration Model is therefore the business and technical foundation of a [*Configurator*](../../../docu-hca/glossary/terms-infrastructure/#configurator).
+The Configuration Model is therefore the business and technical foundation of a
+[*Configurator*](../../../docu-hca/glossary/terms-infrastructure/#configurator).
 
 
 

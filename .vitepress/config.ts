@@ -163,6 +163,9 @@ export default withMermaid(
                 },
                 {
                   text: '12 Conclusion', link: '/documentations/whitepaper-spc/wp-conclusion/',
+                },
+                {
+                  text: 'Expanded concept SP', link: '/documentations/whitepaper-spc/SPC_ExpandedConcept/',
                 }
               ]
             },
@@ -180,11 +183,11 @@ export default withMermaid(
                     {text: '2.7 What should a configuration model accomplish?', link: '/documentations/modeling-guide/mg-concepts/what-accomplish/'}
                   ]
                 },
-                {text: '3 Basics of the CSP', link: '/documentations/modeling-guide/mg-csp/', collapsed: true,
+                {text: '3 Fundamentals of the CSP', link: '/documentations/modeling-guide/mg-csp/', collapsed: true,
                   items: [
                     {text: '3.1 Product Configuration as a Constraint Satisfaction Problem', link: '/documentations/modeling-guide/mg-csp/pc-as-csp/'},
                     {text: '3.2 The elements of a CSP', link: '/documentations/modeling-guide/mg-csp/csp-elements/'},
-                    {text: '3.3 Solving a CSP', link: '/documentations/modeling-guide/mg-csp/csp-solving/'},
+                    {text: '3.3 The solution of a CSP', link: '/documentations/modeling-guide/mg-csp/csp-solution/'},
                     {text: '3.4 What does a CSP Solver do?', link: '/documentations/modeling-guide/mg-csp/csp-solver/'},
                     {text: '3.5 Direct and Indirect Effects', link: '/documentations/modeling-guide/mg-csp/effects/'},
                     {text: '3.6 Why are Constraints better than manual verification?', link: '/documentations/modeling-guide/mg-csp/why-constraints-better/'},
