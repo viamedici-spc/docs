@@ -6,7 +6,7 @@ It checks whether a configuration is valid and answers questions such as:<br>
 • Which options must be set automatically?<br>
 • Which options must be disabled?<br>
 • Is there a [*Conflict*](../../../docu-hca/glossary/terms-state/#conflict)?<br>
-• Which [*Rule*](../../../docu-hca/glossary/terms-modeling/#rule) causes the Conflict?<br>
+• Which [*Rule*](../../../docu-hca/glossary/terms-modeling/#configuration-rule) causes the Conflict?<br>
 • Is there at least **one** valid Solution?<br>
 **Example:**<br>
 The user selects:<br>
