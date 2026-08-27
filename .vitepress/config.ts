@@ -192,7 +192,7 @@ export default withMermaid(
                     {text: '3.5 Direct and Indirect Effects', link: '/documentations/modeling-guide/mg-csp/effects/'},
                     {text: '3.6 Why are Constraints better than manual verification?', link: '/documentations/modeling-guide/mg-csp/why-constraints-better/'},
                     {text: '3.7 What does “satisfy all rules simultaneously” mean?', link: '/documentations/modeling-guide/mg-csp/satisfy-all-rules/'},
-                    {text: '3.8 CSP from two perspectives', link: '/documentations/modeling-guide/mg-csp/perspectives/'},
+                    {text: '3.8 CSP from two perspectives', link: '/documentations/modeling-guide/mg-csp/csp-perspectives/'},
                     {text: '3.9 Summary', link: '/documentations/modeling-guide/mg-csp/summary/'}
                   ]
                 },
