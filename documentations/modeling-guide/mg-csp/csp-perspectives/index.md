@@ -23,7 +23,7 @@ To do this, the modeler must:<br>
 • formally describe the [*Rules*](../../../docu-hca/glossary/terms-modeling/#configuration-rule) of product combinatorics,<br>
 • avoid contradictions,<br>
 • define test cases,<br>
-• document the [*Configuration Model](../../../docu-hca/glossary/terms-modeling/#configuration-model) in an understandable way.<br>
+• document the [*Configuration Model*](../../../docu-hca/glossary/terms-modeling/#configuration-model) in an understandable way.<br>
 
 The task of the modeler is therefore not merely the technical writing of Rules.
 The modeler translates business and technical product knowledge into a formal model: a Configuration Model.

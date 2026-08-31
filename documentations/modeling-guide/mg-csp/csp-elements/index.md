@@ -11,7 +11,7 @@ and [*Rules*](../../../docu-hca/glossary/terms-modeling/#configuration-rule). Th
 In this guide, we use both terms synonymously.<br>
 ### Variables
 A variable is something for which a value must or can be selected.
-In configuration modeling, variables correspond to the [*Attributes*](../../../docu-hca/glossary/terms-modeling/#attribute) of a model.
+In Configuration Modeling, variables correspond to the [*Attributes*](../../../docu-hca/glossary/terms-modeling/#attribute) of a model.
 Examples from the Automotive [*Configurator*](../../../docu-hca/glossary/terms-infrastructure/#configurator):<br>
 CarSize<br>
 Colour<br>

@@ -196,11 +196,11 @@ export default withMermaid(
                     {text: '3.9 Summary', link: '/documentations/modeling-guide/mg-csp/summary/'}
                   ]
                 },
-                {text: '4 Model Structure of the Automotive Example', link: '/documentations/modeling-guide/mg-example-structure/', collapsed: true,
+                {text: '4 Model Structure of the Automotive Example', link: '/documentations/modeling-guide/mg-examplemodel/', collapsed: true,
                   items: [
-                    {text: '4.1 Main components', link: '/documentations/modeling-guide/wp-platform-details/main-comp/'},
-                    {text: '4.2 Two Key Aspects', link: '/documentations/modeling-guide/wp-platform-details/key-aspects/'}
-                  ]
+                    {text: '4.1 Overview of the Model Structure', link: '/documentations/modeling-guide/mg-examplemodel/overview/'},
+                    {text: '4.2 Submodels and Attributes', link: '/documentations/modeling-guide/mg-examplemodel/submodels/'},
+                    {text: '4.3 Modeling Principles in the Tutorial Example', link: '/documentations/modeling-guide/mg-examplemodel/modeling-principles/'}                  ]
                 }
               ]
             }
