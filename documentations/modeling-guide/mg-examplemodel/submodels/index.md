@@ -39,9 +39,75 @@ as well as Component Models that represent the vehicle components.
 ``BaseComponent`` is therefore the technical building block of the vehicle.
 [*Rules*](../../../docu-hca/glossary/terms-modeling/#configuration-rule) in this Model mainly describe dependencies between the engine, transmission, wheels, and spare wheels.
 
-**Syntax for specifying Attributes of `BaseComponent` in the Model itself:**<br>
-```Colour.White```<br>
-**Syntax for specifying Attributes of `BaseComponent` in the “Car” model:**<br>
-```BasicAutomobile::Colour.White```<br>
-TODO: A Component Reference in ``BaseComponent``: ```BasicAutomobile::Engine```
+**Examples of Attribute Notations**<br>
 
+Notation of an [*Choice Attribute*](../../../docu-hca/glossary/terms-modeling/#choice-attribute)  of the `BaseComponent` Model in the Model itself:<br>
+```Colour.White```<br>
+Notation of an Choice Attribute of the `BaseComponent` Model in the ``Car`` Model (one level higher):<br>
+```BasicAutomobile::Colour.White```<br>
+
+```BasicAutomobile``` is the [*Component Reference*](../../../docu-hca/glossary/terms-modeling/#component-attribute) that refers to the ``BaseComponent`` Model.<br><br>
+
+#### The ``Engine`` Model
+The ``Engine`` Model is a submodel (Component Model) of the ``BaseComponent`` Model.
+It describes the vehicle's engine using Attributes that reflect the engine's characteristics.
+| Attribute | Example Values | Meaning |
+|---|---|---|
+| EngineType | Combustion, Electric | Type of drive |
+| FuelType | Petrol, Diesel | Fuel type |
+
+Examples of notations:<br>
+``Engine::EngineType.Combustion``<br>
+``Engine::FuelType.Diesel``<br>
+``Engine::Power."300 KW"``<br>
+
+For electric vehicles, it is important to note that no fuel type may be selected.
+This dependency is expressed later by a [*Configuration Rule*](../../../docu-hca/glossary/terms-modeling/#configuration-rule)<br>.
+
+#### The ``Transmission`` Model
+The ``Transmission`` Model is a submodel (Component Model) of the ``BaseComponent`` Model.
+It describes the vehicle's transmission using Attributes that reflect the transmission's characteristics.
+| Attribute | Example Values | Meaning |
+|---|---|---|
+| Kind | Manual, Automatic | Type of transmission |
+
+Example of notation:<br>
+``Transmission::Kind.Automatic``<br><br>
+
+#### The ``Wheel`` Model
+The ``Wheel`` Model is a submodel (Component Model) of the ``BaseComponent`` Model.
+It describes the vehicle's wheels using Attributes that reflect the wheel's characteristics.
+| Attribute | Example Values | Meaning |
+|---|---|---|
+| RimMaterial | Alu, Steel | Material of the wheel rim |
+| RimSize | "16 inch", "17 inch" | Size of the wheel rim |
+| MaximumSpeed | 100, 200 | Permitted maximum tire speed |
+
+Examples of notation:<br>
+``Wheel::RimMaterial.Steel``<br>
+``Wheels::RimSize."16 inch"``<br>
+
+The ``Wheel`` model is well suited to show how domains can be restricted.
+Depending on the material of the wheel rim, only certain sizes are allowed.
+This dependency is expressed later by a Configuration Rule.<br><br>
+
+#### The Models ``SpareWheel1`` and ``SpareWheel2``
+The ``SpareWheel1`` and ``SpareWheel2`` Models are submodels (Component Models) of the ``BaseComponent`` Model.
+They describe the optional vehicle's spare wheels using Attributes that reflect the spare wheel's characteristics.
+| Attribute | Example Values | Meaning |
+|---|---|---|
+| RimSize | "16 inch", "17 inch" | Size of the spare wheel rim |
+
+Example of notation:<br>
+``SpereWheel::RimSize."16 inch"``<br><br>
+
+#### The Shared Modell ```TechnicalShared```
+The [*Shared Model*](../../../docu-hca/glossary/terms-modeling/#shared-configuration-model) ``TechnicalShared`` contains Attributes that are can be shared by all Component Models.
+Attribute | Example Values | Meaning |
+|---|---|---|
+| Usage | Summer, Winter, Offroad | Intended use of the wheel |
+| RimSize | "16 inch", "17 inch" | Rim size entered as a requirement |
+
+Examples of notation:<br>
+``shared::TechnicalShared::Usage.Offroad``<br>
+``shared::TechnicalShared:::RimSize."16 inch"``<br><br>

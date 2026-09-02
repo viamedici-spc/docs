@@ -201,7 +201,13 @@ export default withMermaid(
                     {text: '4.1 Overview of the Model Structure', link: '/documentations/modeling-guide/mg-examplemodel/overview/'},
                     {text: '4.2 Submodels and Attributes', link: '/documentations/modeling-guide/mg-examplemodel/submodels/'},
                     {text: '4.3 Modeling Principles in the Tutorial Example', link: '/documentations/modeling-guide/mg-examplemodel/modeling-principles/'}                  ]
-                }
+                },
+                {text: '5 Configuration Rules', link: '/documentations/modeling-guide/mg-rules/', collapsed: true,
+                  items: [
+                    {text: '5.1 The basic rule operators ', link: '/documentations/modeling-guide/mg-rules/basic-rules/'},
+                    {text: '5.2 The rules in the teaching example', link: '/documentations/modeling-guide/mg-rules/example-rules/'},
+                    {text: '5.3 A comprehensive example', link: '/documentations/modeling-guide/mg-rules/comprehensive-example/'},
+                    {text: '5.4 Summary', link: '/documentations/modeling-guide/mg-rules/summary/'}
               ]
             }
           ]
