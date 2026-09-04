@@ -30,11 +30,11 @@ The value of a [*Component Attribute*](#component-attribute) is a reference to a
 
 <a name ="attribute-value"></a>
 ### Attribute Value
-An *Attribute Value* is a specific representation of a discrete Value of a
+An *Attribute Value* is a specific representation of a discrete value of a
 characteristic of a real-world product.
-You can also put it this way: An Attribute Value is a discrete Value either
+You can also put it this way: An Attribute Value is a discrete value either
 of an Choice Attribute or a Numeric Attribute or a Boolean Attribute.
-Concerning an Choice Attribute one or more Values can
+Concerning an Choice Attribute one or more values can
 be active (chosen) depending on the [*Cardinality*](#cardinality).
 In case of a Component Attribute the value is a reference
 to a [Component Configuration Model](#component-configuration-model).

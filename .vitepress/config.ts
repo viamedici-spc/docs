@@ -204,8 +204,8 @@ export default withMermaid(
                 },
                 {text: '5 Configuration Rules', link: '/documentations/modeling-guide/mg-rules/', collapsed: true,
                   items: [
-                    {text: '5.1 The basic rule operators ', link: '/documentations/modeling-guide/mg-rules/basic-rules/'},
-                    {text: '5.2 The rules in the teaching example', link: '/documentations/modeling-guide/mg-rules/example-rules/'},
+                    {text: '5.1 Basic Rule Operators ', link: '/documentations/modeling-guide/mg-rules/basic-rules/'},
+                    {text: '5.2 Rules in the Teaching Example', link: '/documentations/modeling-guide/mg-rules/example-rules/'},
                     {text: '5.3 A comprehensive example', link: '/documentations/modeling-guide/mg-rules/comprehensive-example/'},
                     {text: '5.4 Summary', link: '/documentations/modeling-guide/mg-rules/summary/'}
               ]

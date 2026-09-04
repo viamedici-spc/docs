@@ -4,7 +4,7 @@
 The [*Configuration Model*](../../../docu-hca/glossary/terms-modeling/#configuration-model)
 ``Car`` is the [*Root Model*](../../../docu-hca/glossary/terms-modeling/#root-configuration-model), also called Main Model.
 It describes the vehicle as a whole. It contains
-high-level [*Attributes*](../../../docu-hca/glossary/terms-modeling/#attribute) of the vehicle.<br>
+high-level `[*Attributes*](../../../docu-hca/glossary/terms-modeling/#attribute)` of the vehicle.<br>
 **Examples:**
 | Attribute | Example Values | Meaning |
 |---|---|---|
@@ -102,7 +102,7 @@ Example of notation:<br>
 ``SpereWheel::RimSize."16 inch"``<br><br>
 
 #### The Shared Modell ```TechnicalShared```
-The [*Shared Model*](../../../docu-hca/glossary/terms-modeling/#shared-configuration-model) ``TechnicalShared`` contains Attributes that are can be shared by all Component Models.
+The `[*Shared Model*](../../../docu-hca/glossary/terms-modeling/#shared-configuration-model)` ``TechnicalShared`` contains Attributes that are can be shared by all Component Models.
 Attribute | Example Values | Meaning |
 |---|---|---|
 | Usage | Summer, Winter, Offroad | Intended use of the wheel |
